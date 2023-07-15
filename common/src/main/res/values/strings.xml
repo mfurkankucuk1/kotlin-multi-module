@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MultiModule</string>
+
+    <string name="first_module">First Module</string>
+    <string name="second_module">Second Module</string>
+
+</resources>
