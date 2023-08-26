@@ -1,4 +1,4 @@
-package tr.mfk.ecommerce.data.model
+package tr.mfk.networkmodule.model
 
 import com.google.gson.annotations.SerializedName
 

@@ -1,7 +1,9 @@
  include(
          ":app",
          ":common",
-         ":eCommerce"
+         ":eCommerce",
+         ":networkModule"
 
  )
 rootProject.name = "MultiModule"
+

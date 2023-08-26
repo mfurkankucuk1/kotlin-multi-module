@@ -7,8 +7,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
-import tr.mfk.ecommerce.data.model.Products
 import tr.mfk.ecommerce.data.repository.CommerceRepository
+import tr.mfk.networkmodule.model.Products
 import javax.inject.Inject
 
 @HiltViewModel

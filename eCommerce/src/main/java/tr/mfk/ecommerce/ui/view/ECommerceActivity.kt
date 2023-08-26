@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import dagger.hilt.android.AndroidEntryPoint
-import tr.mfk.ecommerce.data.model.Products
 import tr.mfk.ecommerce.databinding.ActivityEcommerceBinding
 import tr.mfk.ecommerce.ui.adapter.ProductsAdapter
 import tr.mfk.ecommerce.ui.viewModel.CommerceViewModel
+import tr.mfk.networkmodule.model.Products
 
 @AndroidEntryPoint
 class ECommerceActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package tr.mfk.ecommerce.di
+package tr.mfk.networkmodule
 
 import dagger.Module
 import dagger.Provides
@@ -9,7 +9,7 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import tr.mfk.common.Constants.BASE_URL
-import tr.mfk.ecommerce.data.remote.ProductService
+import tr.mfk.networkmodule.remote.ProductService
 import javax.inject.Singleton
 
 @Module

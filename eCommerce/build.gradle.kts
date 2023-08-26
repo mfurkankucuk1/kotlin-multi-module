@@ -43,6 +43,7 @@ android {
 dependencies {
 
     implementation(project(":common"))
+    implementation(project(":networkModule"))
 
     implementation(Libs.CORE_KTX)
     implementation(Libs.APP_COMPAT)

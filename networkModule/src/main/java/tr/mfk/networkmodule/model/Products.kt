@@ -1,6 +1,7 @@
-package tr.mfk.ecommerce.data.model
+package tr.mfk.networkmodule.model
 
 import com.google.gson.annotations.SerializedName
+import tr.mfk.networkmodule.model.Rating
 
 
 data class Products(
