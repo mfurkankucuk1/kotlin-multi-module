@@ -1,4 +1,4 @@
-
+import org.jetbrains.kotlin.kapt3.base.Kapt.kapt
 
 plugins {
     id("com.android.library")
@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "tr.mfk.networkmodule"
+    namespace = "tr.mfk.noteapp"
     compileSdk = 33
 
     defaultConfig {
@@ -35,29 +35,25 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
-
     implementation(project(":common"))
-
+    implementation(project(":networkModule"))
     implementation(Libs.CORE_KTX)
     implementation(Libs.APP_COMPAT)
     implementation(Libs.MATERIAL)
     implementation(Libs.CONSTRAINT_LAYOUT)
     implementation(Libs.HILT)
-    implementation("com.google.android.gms:play-services-analytics-impl:18.0.2")
-    kapt(Libs.HILT_COMPILER)
     implementation(Libs.LIFECYCLE_VIEWMODEL)
     implementation(Libs.LIFECYCLE_LIVEDATA)
-    implementation(Libs.TIMBER)
-    implementation(Libs.RETROFIT)
-    implementation(Libs.RETROFIT_LOGGING)
-    implementation(Libs.RETROFIT_GSON)
-    implementation(Libs.GLIDE)
+    kapt(Libs.HILT_COMPILER)
     implementation(Libs.ROOM)
-    implementation(Libs.ROOM_KTX)
     implementation(Libs.ROOM_COMPILER)
+    implementation(Libs.ROOM_KTX)
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

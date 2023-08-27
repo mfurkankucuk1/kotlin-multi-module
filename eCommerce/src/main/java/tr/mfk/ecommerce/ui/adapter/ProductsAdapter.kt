@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import tr.mfk.common.getCurrency
 import tr.mfk.ecommerce.databinding.ItemRowProductBinding
-import tr.mfk.networkmodule.model.Products
+import tr.mfk.networkmodule.network.model.Products
 
 class ProductsAdapter : RecyclerView.Adapter<ProductsAdapter.ProductsViewHolder>() {
 

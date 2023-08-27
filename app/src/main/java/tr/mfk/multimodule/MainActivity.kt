@@ -6,6 +6,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import tr.mfk.app.databinding.ActivityMainBinding
 import tr.mfk.common.startNewActivity
 import tr.mfk.ecommerce.ui.view.ECommerceActivity
+import tr.mfk.noteapp.view.NoteActivity
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
@@ -19,17 +20,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         handleClickEvents()
-        
+
     }
 
     private fun handleClickEvents() {
         binding.apply {
-            // TODO: activity eklenince düzenlenecek
             firstModule.setOnClickListener {
                 startNewActivity(ECommerceActivity::class.java)
             }
             secondModule.setOnClickListener {
-                startNewActivity(ECommerceActivity::class.java)
+                startNewActivity(NoteActivity::class.java)
             }
         }
     }

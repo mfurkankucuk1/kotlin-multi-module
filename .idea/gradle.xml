@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/eCommerce" />
             <option value="$PROJECT_DIR$/networkModule" />
+            <option value="$PROJECT_DIR$/noteApp" />
           </set>
         </option>
       </GradleProjectSettings>

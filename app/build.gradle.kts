@@ -74,6 +74,7 @@ dependencies {
 
     implementation(project(":common"))
     implementation(project(":eCommerce"))
+    implementation(project(":noteApp"))
     implementation(Libs.CORE_KTX)
     implementation(Libs.APP_COMPAT)
     implementation(Libs.MATERIAL)

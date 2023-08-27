@@ -26,6 +26,10 @@
             android:name="tr.mfk.ecommerce.ui.view.ECommerceActivity"
             android:enabled="true"/>
 
+        <activity
+            android:name="tr.mfk.noteapp.view.NoteActivity"
+            android:enabled="true"/>
+
     </application>
 
 

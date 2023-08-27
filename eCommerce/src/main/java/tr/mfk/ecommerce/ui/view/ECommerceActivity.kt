@@ -8,7 +8,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import tr.mfk.ecommerce.databinding.ActivityEcommerceBinding
 import tr.mfk.ecommerce.ui.adapter.ProductsAdapter
 import tr.mfk.ecommerce.ui.viewModel.CommerceViewModel
-import tr.mfk.networkmodule.model.Products
+import tr.mfk.networkmodule.network.model.Products
 
 @AndroidEntryPoint
 class ECommerceActivity : AppCompatActivity() {

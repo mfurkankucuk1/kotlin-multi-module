@@ -2,8 +2,8 @@
          ":app",
          ":common",
          ":eCommerce",
-         ":networkModule"
+         ":networkModule",
+         ":noteApp"
 
  )
 rootProject.name = "MultiModule"
-
